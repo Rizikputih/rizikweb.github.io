@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LUCKYLAND.STORE</title>
+  <style>
+
+    .satu{
+      margin-left: 30px;
+    }
+    .dua{
+      margin-left: 320px;
+      margin-top: -665px;
+    }
+    .tiga{
+      margin-left: 620px;
+      margin-top: -670px;
+    }
+    .empat{
+      margin-left: 920px;
+      margin-top: -650px;
+    }
+    .lima{
+      margin-left: 30px;
+    }
+    .enam{
+      margin-left: 320px;
+      margin-top: -690px;
+    }
+    .tujuh{
+      margin-left: 620px;
+      margin-top: -690px;
+    }
+    .navbar{
+      background-color: rebeccapurple;
+    }
+    *{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+#testimonials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+}
+.testimonial-heading{
+    letter-spacing: 1px;
+    margin: 30px 0px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.testimonial-heading h1{
+    font-size: 2.2rem;
+    font-weight: 500;
+    background-color: #202020;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+.testimonial-heading span{
+    font-size: 1.3rem;
+    color: #252525;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.testimonial-box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width:100%;
+}
+.testimonial-box{
+    width:500px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 15px;
+    cursor: pointer;
+}
+.profile-img{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.profile-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.name-user{
+    display: flex;
+    flex-direction: column;
+}
+.name-user strong{
+    color: #3d3d3d;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+.name-user span{
+    color: #979797;
+    font-size: 0.8rem;
+}
+.reviews{
+    color: #f9d71c;
+}
+.box-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.client-comment p{
+    font-size: 0.9rem;
+    color: #4b4b4b;
+}
+.testimonial-box:hover{
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+}
+ 
+@media(max-width:1060px){
+    .testimonial-box{
+        width:45%;
+        padding: 10px;
+    }
+}
+@media(max-width:790px){
+    .testimonial-box{
+        width:100%;
+    }
+    .testimonial-heading h1{
+        font-size: 1.4rem;
+    }
+}
+@media(max-width:340px){
+    .box-top{
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    .reviews{
+        margin-top: 10px;
+    }
+}
+::selection{
+    color: #ffffff;
+    background-color: #252525;
+}
+ 
+ 
+    
+  </style>
+  <!--Stylesheet--------------------------->
+<link rel="stylesheet" href="css/style.css"/>
+<!--Fav-icon------------------------------>
+<link rel="shortcut icon" href="images/fav-icon.png"/>
+<!--poppins-font-family------------------->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<!--using-Font-Awesome-------------------->
+<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body style="background-image: url(https://i.pinimg.com/originals/e5/22/c7/e522c7250391e66f7d97d2fe3cbf8b88.jpg);">
+
+ <div class="navbar"><nav class="navbar navbar-expand-lg">
+  <div class="container-fluid" >
+    <a class="navbar-brand" href="#">
+      <img src="LuckyLand_STORE-removebg-preview.png" alt="Logo" width="130" height="50" class="d-inline-block align-text-buttom">
+      </a>
+    </div>
+</nav></div>
+<div class="border-bottom border-info" ></div>
+<br><br>
+
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item" class="$purple-600">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <img src="araki.jpg" width="210"><br><br>
+        <h1><strong>Hirohiko Araki</strong></h1> 
+        <div class="border-bottom border-info"></div>
+        <br>Hirohiko Araki, lahir 7 Juni 1960 adalah seorang seniman manga Jepang. Dia terkenal karena serialnya yang sudah berjalan lama yaitu <code>JoJo no Kimyō na Bōken</code>, yang pertama kali diterbitkan di Weekly Shōnen Jump pada tahun 1987 dan telah terjual lebih dari 100 juta kopi pada tahun 2016 di Jepang saja.membuatnya menjadi salah satu seri manga terlaris dalam sejarah, dan telah menghasilkan waralaba media besar termasuk beberapa novel dan permainan video, action figure, jaringan perhiasan, dan bahkan makanan ringan. Di Indonesia, manga <code>JoJo no Kimyō na Bōken</code> diterbitkan dengan nama <code>JoJo's Bizarre Adventure</code> oleh Level Comics dan Elex Media Komputindo pada tahun 2022.
+      </div>
+    </div>
+  </div>
+
+<br><br>
+<div class="satu"><div class="col-sm-6 mb-3 mb-sm-0" >
+<div class="card text-bg-danger mb-3" style="max-width: 14rem;">
+  <img src="Phantom_blood.jpg" class="card-img-top" alt="kars">
+  <div class="card-body">
+    <h5 class="card-title">Jojo's Bizzare Adventure Phantom Blood=01</h5>
+    <div class="border-bottom border-info"></div>
+    <p class="card-text">Jonathan alias Jojo adalah putra tunggal keluarga bangsawan Inggris, Joestar. Dia bercita-cita menjadi pria terhormat....</p>
+    <a href="L.html" class="btn btn-info">Selengkapnya..</a>
+  </div>
+</div></div></div>
+
+
+<div class="dua"><div class="col-sm-6 mb-3 mb-sm-0">
+<div class="card text-bg-danger mb-3" style="max-width: 14rem;">
+  <img src="phantom2.jpg" class="card-img-top" alt="kars">
+  <div class="card-body">
+    <h5 class="card-title">Jojo's Bizzare Adventure Phantom Blood=02</h5>
+    <div class="border-bottom border-info"></div>
+    <p class="card-text">Jojo berhadapan dengan Dio dengan mempertaruhkan nyawanya sendiri di rumah yang diselimuti kobaran </p>
+    <a href="U.html" class="btn btn-info">Selengkapnya...</a>
+  </div>
+</div>
+</div></div>
+
+
+<div class="tiga"><div class="col-sm-6 mb-3 mb-sm-0">
+<div class="card text-bg-danger mb-3" style="max-width: 14rem;">
+  <img src="phantom3.jpg" class="card-img-top" alt="kars">
+  <div class="card-body">
+    <h5 class="card-title">Jojo's Bizzare Adventure Phantom Blood=03</h5>
+    <div class="border-bottom border-info"></div>
+    <p class="card-text">Jojo mengalami kesulitan saat bertarung di Chain Neck Death Match melawan Tarkus, kesatria legendaris...</p>
+    <a href="C.html" class="btn btn-info">Selengkapnya...</a>
+  </div>
+</div>
+</div></div>
+
+<div class="empat"><div class="col-sm-6 mb-3 mb-sm-0">
+<div class="card text-bg-success mb-3" style="max-width: 14rem;">
+  <img src="battle4.jpg" class="card-img-top" alt="kars">
+  <div class="card-body">
+    <h5 class="card-title">Jojo's Bizzare Adventure Battle Tendency=04</h5>
+    <div class="border-bottom border-info"></div>
+    <p class="card-text">50 tahun berlalu sejak pertarungan mematikan Jonathan dan Dio. Kini cucu Jonathan, Joseph, berada di New York...</p>
+    <a href="K.html" class="btn btn-info">Selengkapnya...</a>
+  </div>
+</div>
+</div></div>
+<br><br>
+<div class="lima"><div class="col-sm-6 mb-3 mb-sm-0">
+<div class="card text-bg-success mb-3" style="max-width: 14rem;">
+  <img src="battle5.jpg" class="card-img-top" alt="kars">
+  <div class="card-body">
+    <h5 class="card-title">Jojo's Bizzare Adventure Battle Tendency=05</h5>
+    <div class="border-bottom border-info"></div>
+    <p class="card-text">Jojo pergi ke Italia sesuai wasiatnya. Di sana, Jojo bertemu dengan Caesar, cucu Zeppeli yang sama-sama mengemban misi mengalahkan Pria Pilar. </p>
+    <a href="Y.html" class="btn btn-info">Selengkapnya...</a>
+  </div>
+</div>
+</div></div>
+
+<div class="enam"><div class="col-sm-6 mb-3 mb-sm-0">
+<div class="card text-bg-success mb-3" style="max-width: 14rem;">
+  <img src="battle6.jpg" class="card-img-top" alt="kars">
+  <div class="card-body">
+    <h5 class="card-title">Jojo's Bizzare Adventure Battle Tendency=06</h5>
+    <div class="border-bottom border-info"></div>
+    <p class="card-text">Di pertarungan yang sulit, Jojo akhirnya berhasil mengalahkan ACDC berkat kecerdikannya. Namun, karena ACDC begitu gigih, dia berhasil merebut batu</p>
+    <a href="N.html" class="btn btn-info">Selengkapnya...</a>
+  </div>
+</div>
+</div></div>
+
+<div class="tujuh"><div class="col-sm-6 mb-3 mb-sm-0">
+<div class="card text-bg-success mb-3" style="max-width: 14rem;">
+  <img src="battle7.jpg" class="card-img-top" alt="kars">
+  <div class="card-body">
+    <h5 class="card-title">Jojo's Bizzare Adventure Battle Tendency=07</h5>
+    <div class="border-bottom border-info"></div>
+    <p class="card-text">Balap kereta perang melawan Wham dengan mempertaruhkan batu merah Aja dimulai! Dengan taktik cerdas, Jojo melawan...</p>
+    <a href="D.html" class="btn btn-info">Selengkapnya...</a>
+  </div>
+</div>
+</div></div>
+<br><br><br>
+<!--Testimonials------------------->
+    <section id="testimonials">
+        <!--heading--->
+        <div class="testimonial-heading">
+            <span>Comments</span>
+            <h1>Ulasan Pembeli</h1>
+        </div>
+        <!--testimonials-box-container------>
+        <div class="testimonial-box-container">
+            <!--BOX-1-------------->
+            <div class="testimonial-box">
+                <!--top------------------------->
+                <div class="box-top">
+                    <!--profile----->
+                    <div class="profile">
+                        <!--img---->
+                        <div class="profile-img">
+                            <img src="wssk.jpg" />
+                        </div>
+                        <!--name-and-username-->
+                        <div class="name-user">
+                            <strong>Arip Purnama</strong>
+                            <span>@salahsayadimana</span>
+                        </div>
+                    </div>
+                    <!--reviews------>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i><!--Empty star-->
+                    </div>
+                </div>
+                <!--Comments---------------------------------------->
+                <div class="client-comment">
+                    <p>Loh Salah saya dimana klo saya suka baca manga jojo manga jojo,wong saya suka kok.</p>
+                </div>
+            </div>
+            <!--BOX-2-------------->
+            <div class="testimonial-box">
+                <!--top------------------------->
+                <div class="box-top">
+                    <!--profile----->
+                    <div class="profile">
+                        <!--img---->
+                        <div class="profile-img">
+                            <img src="deddy.jpg" />
+                        </div>
+                        <!--name-and-username-->
+                        <div class="name-user">
+                            <strong>HitamPutih</strong>
+                            <span>@DaddyKarsBuzzer</span>
+                        </div>
+                    </div>
+                    <!--reviews------>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><!--Empty star-->
+                    </div>
+                </div>
+                <!--Comments---------------------------------------->
+                <div class="client-comment">
+                    <p>Waaahh ini komik keren banget,Gokiiill</p>
+                </div>
+            </div>
+            <!--BOX-3-------------->
+            <div class="testimonial-box">
+                <!--top------------------------->
+                <div class="box-top">
+                    <!--profile----->
+                    <div class="profile">
+                        <!--img---->
+                        <div class="profile-img">
+                            <img src="limbad.jpg" />
+                        </div>
+                        <!--name-and-username-->
+                        <div class="name-user">
+                            <strong>MasterLambad</strong>
+                            <span>@LambadLambid</span>
+                        </div>
+                    </div>
+                    <!--reviews------>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i><!--Empty star-->
+                    </div>
+                </div>
+                <!--Comments---------------------------------------->
+                <div class="client-comment">
+                    <p>ekhm ummn raaggghh ekhm ekkkhhm grrrr hihiheha ummhh fuu fuu ukkhm raghumn grr wrry</p>
+                </div>
+            </div>
+            <!--BOX-4-------------->
+            <div class="testimonial-box">
+                <!--top------------------------->
+                <div class="box-top">
+                    <!--profile----->
+                    <div class="profile">
+                        <!--img---->
+                        <div class="profile-img">
+                            <img src="hitam.jpg" />
+                        </div>
+                        <!--name-and-username-->
+                        <div class="name-user">
+                            <strong>Rusdi Batagor</strong>
+                            <span>@Temannya Dika</span>
+                        </div>
+                    </div>
+                    <!--reviews------>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i><!--Empty star-->
+                    </div>
+                </div>
+                <!--Comments---------------------------------------->
+                <div class="client-comment">
+                    <p>AYAYAYAYAY!    *pillarmen ost</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<br><br><br>
+<footer id="footer" style="background-color: rebeccapurple;">
+  <nav>
+    <div class="credite text-center">
+      Designed by <a href="#">RiziiiiqGG</a>
+    </div>
+    <div class="copyright text-center">
+       &copy; Copyright <strong><span>Lucky Land Communications</span></strong>.All Rights Reserved
+    </div>
+  </nav>
+</footer>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
